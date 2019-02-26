@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49A56E7F21C52761003D0013 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A56E7E21C52761003D0013 /* TableViewController.swift */; };
+		49A56E8321C53E8C003D0013 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A56E8221C53E8C003D0013 /* CellTableViewCell.swift */; };
+		49A56E8521C54B04003D0013 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A56E8421C54B04003D0013 /* DetailsViewController.swift */; };
+		49A56E8721C55FA2003D0013 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A56E8621C55FA2003D0013 /* CollectionViewController.swift */; };
+		49A56E8921C5602F003D0013 /* CellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A56E8821C5602F003D0013 /* CellCollectionViewCell.swift */; };
 		49C0859C21BAE7D7005CEAEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C0859B21BAE7D7005CEAEA /* AppDelegate.swift */; };
-		49C0859E21BAE7D7005CEAEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C0859D21BAE7D7005CEAEA /* ViewController.swift */; };
+		49C0859E21BAE7D7005CEAEA /* MemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C0859D21BAE7D7005CEAEA /* MemeView.swift */; };
 		49C085A121BAE7D7005CEAEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C0859F21BAE7D7005CEAEA /* Main.storyboard */; };
 		49C085A321BAE7D7005CEAEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C085A221BAE7D7005CEAEA /* Assets.xcassets */; };
 		49C085A621BAE7D7005CEAEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C085A421BAE7D7005CEAEA /* LaunchScreen.storyboard */; };
+		49C085B021BB5501005CEAEA /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C085AF21BB5501005CEAEA /* Meme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49A56E7E21C52761003D0013 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		49A56E8221C53E8C003D0013 /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		49A56E8421C54B04003D0013 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		49A56E8621C55FA2003D0013 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		49A56E8821C5602F003D0013 /* CellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCollectionViewCell.swift; sourceTree = "<group>"; };
 		49C0859821BAE7D7005CEAEA /* Meme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C0859B21BAE7D7005CEAEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49C0859D21BAE7D7005CEAEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49C0859D21BAE7D7005CEAEA /* MemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeView.swift; sourceTree = "<group>"; };
 		49C085A021BAE7D7005CEAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49C085A221BAE7D7005CEAEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49C085A521BAE7D7005CEAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49C085A721BAE7D7005CEAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C085AF21BB5501005CEAEA /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				49C0859B21BAE7D7005CEAEA /* AppDelegate.swift */,
-				49C0859D21BAE7D7005CEAEA /* ViewController.swift */,
+				49C0859D21BAE7D7005CEAEA /* MemeView.swift */,
 				49C0859F21BAE7D7005CEAEA /* Main.storyboard */,
+				49A56E8421C54B04003D0013 /* DetailsViewController.swift */,
+				49A56E8221C53E8C003D0013 /* CellTableViewCell.swift */,
+				49A56E7E21C52761003D0013 /* TableViewController.swift */,
+				49C085AF21BB5501005CEAEA /* Meme.swift */,
+				49A56E8621C55FA2003D0013 /* CollectionViewController.swift */,
+				49A56E8821C5602F003D0013 /* CellCollectionViewCell.swift */,
 				49C085A221BAE7D7005CEAEA /* Assets.xcassets */,
 				49C085A421BAE7D7005CEAEA /* LaunchScreen.storyboard */,
 				49C085A721BAE7D7005CEAEA /* Info.plist */,
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49C0859E21BAE7D7005CEAEA /* ViewController.swift in Sources */,
+				49A56E8321C53E8C003D0013 /* CellTableViewCell.swift in Sources */,
+				49C085B021BB5501005CEAEA /* Meme.swift in Sources */,
+				49C0859E21BAE7D7005CEAEA /* MemeView.swift in Sources */,
 				49C0859C21BAE7D7005CEAEA /* AppDelegate.swift in Sources */,
+				49A56E8721C55FA2003D0013 /* CollectionViewController.swift in Sources */,
+				49A56E7F21C52761003D0013 /* TableViewController.swift in Sources */,
+				49A56E8921C5602F003D0013 /* CellCollectionViewCell.swift in Sources */,
+				49A56E8521C54B04003D0013 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
